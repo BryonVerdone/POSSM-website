@@ -1,0 +1,27 @@
+a {
+  text-decoration: none;
+}
+
+.band {
+  border: 4px solid greenyellow;
+  border-radius: 50%;
+  box-shadow: 10px 10px 10px 10px pink;
+  object-fit: fill;
+}
+p {
+  width: 250px;
+}
+.section {
+  text-decoration: underline;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border: 5px solid rgb(255, 110, 199);
+  border-radius: 50%;
+}
+body {
+  background: rgb(59, 160, 72);
+}
