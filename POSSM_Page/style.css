@@ -26,3 +26,14 @@ p {
 .band:hover {
   transform: translateY(-5px);
 }
+ul {
+  list-style-type: none;
+}
+footer {
+  background: grey;
+  text-align: center;
+}
+.social-icon {
+  color: blue;
+  font-size: 5rem;
+}
