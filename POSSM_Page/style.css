@@ -58,6 +58,10 @@ Bio
   max-width: 200px;
 }
 .bio-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 /* 
