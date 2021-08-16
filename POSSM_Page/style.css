@@ -63,7 +63,9 @@ Bio
   align-items: center;
   justify-content: center;
 }
-
+.bio-icon {
+  color: blue;
+}
 /* 
 ==============
 Contact form 
