@@ -8,13 +8,6 @@ a {
   text-align: center;
 }
 
-.band {
-  border: 4px solid greenyellow;
-  border-radius: 50%;
-  box-shadow: 10px 10px 10px 10px pink;
-  object-fit: fill;
-}
-
 .section {
   text-decoration: underline;
 }
@@ -33,18 +26,21 @@ a {
 ul {
   list-style-type: none;
 }
-footer {
-  background: grey;
-  text-align: center;
-  border-radius: 2rem;
-}
-.social-icon {
-  color: blue;
-  font-size: 2rem;
-}
+
 body {
   margin: 10px;
-  text-align: ;
+}
+
+/* 
+==========
+Nav bar
+==========
+*/
+
+.nav-bar {
+  background: grey;
+  width: 200px;
+  border: solid 5px red;
 }
 
 /* 
@@ -52,6 +48,13 @@ body {
 Bio
 ==========
 */
+
+.band {
+  border: 4px solid greenyellow;
+  border-radius: 50%;
+  box-shadow: 10px 10px 10px 10px pink;
+  object-fit: fill;
+}
 
 .bio-text {
   /* text-align: center; */
@@ -130,4 +133,19 @@ Fade in images
   100% {
     opacity: 1;
   }
+}
+
+/* 
+==============
+Footer
+==============
+*/
+footer {
+  background: grey;
+  text-align: center;
+  border-radius: 2rem;
+}
+.social-icon {
+  color: blue;
+  font-size: 2rem;
 }
