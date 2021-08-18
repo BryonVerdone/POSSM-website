@@ -41,6 +41,7 @@ Nav bar
   background: grey;
   width: 200px;
   border: solid 5px red;
+  border-radius: 50%;
 }
 
 /* 
@@ -58,13 +59,16 @@ Bio
 
 .bio-text {
   /* text-align: center; */
-  max-width: 200px;
+  max-width: 250px;
+  line-height: 1.5rem;
 }
 .bio-card {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  border: 5px solid black;
+  border-width: ;
 }
 .bio-icon {
   color: blue;
