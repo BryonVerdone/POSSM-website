@@ -1,2 +1,2 @@
 # POSSM-website
-POSSM web page
+Page for my band The Professors of Sweet Sweet Music 
