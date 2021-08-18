@@ -20,9 +20,6 @@ a {
   border-radius: 50%;
 }
 
-.band:hover {
-  transform: translateY(-10px);
-}
 ul {
   list-style-type: none;
 }
@@ -56,19 +53,33 @@ Bio
   box-shadow: 10px 10px 10px 10px pink;
   object-fit: fill;
 }
+.band:hover {
+  transform: translateY(-10px);
+}
+article:hover {
+  transform: translateY(-10px);
+}
 
 .bio-text {
   /* text-align: center; */
   max-width: 250px;
   line-height: 1.5rem;
 }
+
 .bio-card {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+.bio-border {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
   border: 5px solid black;
-  border-width: ;
+  border-radius: 20px;
 }
 .bio-icon {
   color: blue;
