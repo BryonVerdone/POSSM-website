@@ -13,6 +13,7 @@ a {
 }
 .page-header {
   text-align: center;
+  font-family: "Comfortaa", cursive;
 }
 
 .section {
@@ -92,6 +93,7 @@ Bio
 .bio-icon {
   color: blue;
 }
+
 /* 
 ==============
 Contact form 
