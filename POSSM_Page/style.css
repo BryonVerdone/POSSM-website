@@ -1,3 +1,10 @@
+/* 
+==========
+Fonts
+==========
+*/
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap");
+
 a {
   text-decoration: none;
 }
@@ -47,7 +54,9 @@ Nav bar
 Bio
 ==========
 */
-
+.name {
+  font-family: "Comfortaa", cursive;
+}
 .band {
   border: 4px solid greenyellow;
   border-radius: 50%;
