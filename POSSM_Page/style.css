@@ -62,6 +62,7 @@ Gallery
   /* min-width: 100vw; */
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
+  margin-bottom: 2rem;
 }
 .cell {
   border: 2px solid black;
