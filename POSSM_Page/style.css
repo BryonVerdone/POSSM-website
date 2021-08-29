@@ -58,8 +58,8 @@ Gallery
 .gallery-container {
   border: 2px solid black;
   display: grid;
-  /* min-height: 100vh; */
-  /* min-width: 100vw; */
+  min-height: 100vh;
+  min-width: 100vw;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   margin-bottom: 2rem;
@@ -72,6 +72,11 @@ Gallery
   height: 100%;
   display: block;
   object-fit: cover;
+}
+.gallery-img:hover {
+  transform: translateY(-10px);
+  transform: scale(1.08);
+  border: 2px solid greenyellow;
 }
 /* 
 ==========
