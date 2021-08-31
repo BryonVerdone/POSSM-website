@@ -52,6 +52,17 @@ Nav bar
 }
 /* 
 ==========
+About
+==========
+*/
+.about {
+  max-width: 800px;
+  /* add line height to global styles */
+  line-height: 1.5rem;
+}
+
+/* 
+==========
 Gallery
 ==========
 */
