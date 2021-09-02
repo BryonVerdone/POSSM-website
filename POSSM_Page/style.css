@@ -23,7 +23,7 @@ a {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 700px;
   border: 5px solid rgb(255, 110, 199);
   border-radius: 50%;
 }
@@ -45,10 +45,8 @@ Nav bar
 
 .nav-bar {
   background: grey;
-  width: 200px;
-  display: grid;
-  border: solid 5px red;
-  border-radius: 50%;
+  width: 100vw;
+  border: solid 2px black;
 }
 /* 
 ==========
