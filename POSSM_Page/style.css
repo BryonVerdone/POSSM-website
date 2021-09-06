@@ -48,6 +48,18 @@ Nav bar
   width: 100vw;
   border: solid 2px black;
 }
+.nav-bar ul {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  justify-items: center;
+  align-content: space-between;
+}
+.nav-bar-items a {
+  color: green;
+}
+.nav-bar-items li {
+  line-height: 2rem;
+}
 /* 
 ==========
 About
@@ -86,6 +98,13 @@ Gallery
   transform: translateY(-10px);
   transform: scale(1.08);
   border: 2px solid greenyellow;
+}
+
+/* added from tutorial  */
+.gallery-container {
+  display: grid;
+  column-gap: 2rem;
+  grid-template-columns: repeat(auto-fill, minmax(268.5px, 1fr));
 }
 /* 
 ==========
