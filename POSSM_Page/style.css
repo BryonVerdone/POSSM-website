@@ -233,6 +233,7 @@ footer {
   font-size: 2rem;
   padding: 0 5px;
 }
+
 /* 
 ==============
 Updated bio
@@ -243,12 +244,12 @@ Updated bio
   padding: 0;
   box-sizing: border-box;
 }
-img {
+.bio-image {
   width: 100%;
   display: block;
   border: 1px solid transparent;
-  border-radius: 10%;
-  object-fit: fill;
+  border-radius: 2rem;
+  object-fit: cover;
 }
 .card:hover {
   transform: translatez(1);
@@ -273,7 +274,8 @@ img {
   border: 3px solid blue;
   margin-bottom: 3rem;
   position: relative;
-  border-radius: 10%;
+  border-radius: 2rem;
+  display: block;
 }
 /* .card-info {
   padding: 1rem;
@@ -295,7 +297,7 @@ img {
   opacity: 1;
 }
 .text {
-  color: white;
+  color: black;
   font-size: 16px;
   position: absolute;
   top: 50%;
@@ -309,6 +311,7 @@ img {
   background: blueviolet;
   padding: 0.5rem 1rem;
 } */
+
 @media screen and (min-width: 768px) {
   .cards-center {
     display: grid;
