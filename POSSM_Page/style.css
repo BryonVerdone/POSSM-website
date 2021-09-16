@@ -77,79 +77,100 @@ About
 Gallery
 ==========
 */
-.gallery-container {
-  border: 2px solid black;
-  display: grid;
-  min-height: 100vh;
-  min-width: 100vw;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  margin-bottom: 2rem;
-}
-.cell {
-  border: 2px solid black;
-}
-.gallery-img {
-  width: 100%;
-  height: 100%;
-  display: block;
-  object-fit: cover;
-}
-.gallery-img:hover {
-  transform: translateY(-10px);
-  transform: scale(1.08);
-  border: 2px solid greenyellow;
-}
 
-/* added from tutorial  */
-.gallery-container {
-  display: grid;
-  column-gap: 2rem;
-  grid-template-columns: repeat(auto-fill, minmax(268.5px, 1fr));
-}
 /* 
 ==========
 Bio
 ==========
 */
-.name {
-  font-family: 'Comfortaa', cursive;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.band {
-  border: 4px solid greenyellow;
-  border-radius: 50%;
-  box-shadow: 10px 10px 10px 10px pink;
-  object-fit: fill;
+.bio-image {
+  width: 100%;
+  display: block;
+  border: 1px solid transparent;
+  border-radius: 2rem;
+  object-fit: cover;
 }
-.band:hover {
-  transform: translateY(-10px);
+.card:hover {
+  transform: translatez(1);
   transform: scale(1.08);
 }
-
-.bio-text {
+.name {
   text-align: center;
-  max-width: 250px;
-  line-height: 1.5rem;
 }
+.cards {
+  display: grid;
+  justify-content: center;
+  max-height: 100%;
+  margin-top: 2rem;
+}
+.cards-center {
+  width: 80vw;
+  max-width: 1170px;
+  margin-bottom: 2rem auto;
+}
+.card {
+  border: 3px solid blue;
+  margin-bottom: 3rem;
+  position: relative;
+  border-radius: 2rem;
+  display: block;
+}
+/* .card-info {
+  padding: 1rem;
+} */
 
-.bio-card {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+/* card text hover attempt */
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
 }
-.bio-border {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  border: 5px solid black;
-  border-radius: 20px;
-  width: 400px;
-  max-width: 450px;
+.card:hover .overlay {
+  opacity: 1;
 }
-.bio-icon {
-  color: blue;
+.text {
+  color: black;
+  font-size: 16px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+/* end of card text hover attempt */
+
+/* .card-footer {
+  background: blueviolet;
+  padding: 0.5rem 1rem;
+} */
+
+@media screen and (min-width: 768px) {
+  .cards-center {
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2rem;
+  }
+}
+@media screen and (min-width: 1170px) {
+  .cards-center {
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 2rem;
+  }
 }
 
 /* 
