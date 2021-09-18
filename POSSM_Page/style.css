@@ -3,7 +3,7 @@
 Fonts
 ==========
 */
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap");
 
 a {
   text-decoration: none;
@@ -13,7 +13,7 @@ a {
 }
 .page-header {
   text-align: center;
-  font-family: 'Comfortaa', cursive;
+  font-family: "Comfortaa", cursive;
 }
 
 .section {
@@ -69,7 +69,6 @@ About
 .about {
   max-width: 800px;
   /* add line height to global styles */
-  line-height: 1.5rem;
 }
 
 /* 
@@ -88,6 +87,7 @@ Bio
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  line-height: 1.5rem;
 }
 .bio-image {
   width: 100%;
@@ -149,12 +149,6 @@ Bio
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 }
-/* end of card text hover attempt */
-
-/* .card-footer {
-  background: blueviolet;
-  padding: 0.5rem 1rem;
-} */
 
 @media screen and (min-width: 768px) {
   .cards-center {
